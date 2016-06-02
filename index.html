@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Triangle Tracker</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.4.js" type="text/javascript"></script>
+    <script src="js/bootstrap.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Triangle Tracker</h1>
+      <p>Enter the lenght of each side to track your triangle:</p>
+      <!-- input form -->
+      <div class="form-group">
+        <form id="info">
+          <label for="side1">Side 1</label>
+          <input id="side1" type="text"><br>
+          <label for="side2">Side 2</label>
+          <input type="side2" id="side2"><br>
+          <label for="side3">Side 3</label>
+          <input type="side3" id="side3">
+          <button type="submit" class="btn">Track my triangle!</button>
+        </form>
+      </div>
+      <!-- results -->
+      <div id="result">
+        <p>your triangle is <span id="triangle"></span>.</p>
+      </div>
+    </div>
+  </body>
+</html>
